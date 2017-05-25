@@ -1,0 +1,85 @@
+.title-style{
+    color: map-get($colors, yellows);
+}
+
+page-home {
+ 
+    //Top style
+
+    .background-image {
+        background-image: url(https://img.purch.com/w/660/aHR0cDovL3d3dy5zcGFjZS5jb20vaW1hZ2VzL2kvMDAwLzA0OC8wNDUvb3JpZ2luYWwvbWFydGlhbi1kYW1vbi1zcGFjZS1zdWl0LmpwZw==);
+        background-size: cover;
+        background-position: center;
+        height: 50vw;
+
+        p{
+            color: #FFF;
+            font-size: 1.5em;
+            margin: 0;
+        }
+
+        .top-content{
+            position: absolute;
+            top: auto;
+            left: auto;
+            padding-left: 7%;
+            padding-top: 25%;
+            width: inherit;
+        }
+    }
+ 
+    .main-content {
+        padding: 0px;
+        background-color: white;
+        position: absolute;
+    }
+
+    //Cards style
+
+    .card-background-page {
+
+        ion-card {
+            border: none;
+            box-shadow: none;
+            background: transparent;
+            text-align: left;
+        }
+
+        img {
+            padding: 0px;
+        }
+
+        .card-title {
+            top: 26%;
+            font-size: 1.0em;
+            padding: 2px;
+            width: 100%;
+            color: map-get($colors, dark);
+        }
+
+        .card-subtitle {
+            font-size: 1.0em;
+            position: absolute;
+            top: 52%;
+            width: 100%;
+            color: #7B7E7B;
+        }
+
+        .category {
+            color: map-get($colors, yellows); 
+        }
+
+        .inline{
+            display: inline;
+        }
+
+        .subitem{
+            font-size:  0.8em;
+        }
+
+        .light{
+            color: map-get($colors, darkgrays);
+        }
+    }
+    
+}
