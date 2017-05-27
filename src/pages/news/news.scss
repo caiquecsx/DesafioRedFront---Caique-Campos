@@ -1,3 +1,63 @@
 page-news {
 
+   .titles-top{
+        h2{
+            font-size: 1.0em;
+            font-weight: bold;
+        }
+   }
+
+    .card-background-page {
+
+        ion-card {
+            border: none;
+            box-shadow: none;
+            background: transparent;
+            text-align: left;
+        }
+
+        img {
+            padding: 0px;
+        }
+
+        p{
+            width: 100%;
+            padding: 2px;
+            color: map-get($colors, darkgrays);
+            text-overflow: ellipsis;
+        }
+
+        .card-title {
+            top: 26%;
+            font-size: 1.1em;
+            padding: 2px;
+            width: 100%;
+            color: map-get($colors, dark);
+        }
+
+        .card-subtitle {
+            font-size: 1.0em;
+            position: absolute;
+            top: 52%;
+            width: 100%;
+            color: #7B7E7B;
+        }
+
+        .category {
+            color: map-get($colors, yellows); 
+        }
+
+        .inline{
+            display: inline;
+        }
+
+        .subitem{
+            font-size:  0.8em;
+        }
+
+        .light{
+            color: map-get($colors, darkgrays);
+        }
+    }
+
 }

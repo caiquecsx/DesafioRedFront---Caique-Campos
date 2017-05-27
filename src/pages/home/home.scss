@@ -7,7 +7,7 @@ page-home {
     //Top style
 
     .background-image {
-        background-image: url(https://img.purch.com/w/660/aHR0cDovL3d3dy5zcGFjZS5jb20vaW1hZ2VzL2kvMDAwLzA0OC8wNDUvb3JpZ2luYWwvbWFydGlhbi1kYW1vbi1zcGFjZS1zdWl0LmpwZw==);
+        //background-image: url(https://img.purch.com/w/660/aHR0cDovL3d3dy5zcGFjZS5jb20vaW1hZ2VzL2kvMDAwLzA0OC8wNDUvb3JpZ2luYWwvbWFydGlhbi1kYW1vbi1zcGFjZS1zdWl0LmpwZw==);
         background-size: cover;
         background-position: center;
         height: 50vw;
@@ -27,14 +27,8 @@ page-home {
             width: inherit;
         }
     }
- 
-    .main-content {
-        padding: 0px;
-        background-color: white;
-        position: absolute;
-    }
 
-    //Cards style
+    /* Cards style above */
 
     .card-background-page {
 
@@ -51,7 +45,7 @@ page-home {
 
         .card-title {
             top: 26%;
-            font-size: 1.0em;
+            font-size: 1.2em;
             padding: 2px;
             width: 100%;
             color: map-get($colors, dark);
@@ -81,5 +75,6 @@ page-home {
             color: map-get($colors, darkgrays);
         }
     }
-    
+    /* cards style end */
+
 }

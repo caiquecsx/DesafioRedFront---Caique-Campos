@@ -1,16 +1,32 @@
 <ion-menu [content]="content">
   <ion-header>
     <ion-toolbar>
-      <ion-title>IMDb</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <ion-content class='sidemenu'>
+    
     <ion-list no-lines>
-      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
+     <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)" >
         {{p.title}}
       </button>
+      
     </ion-list>
+
+    <ion-footer no-shadow>
+      <ion-toolbar position="bottom">
+
+       <ion-item no-lines menuClose>
+          <ion-avatar item-left>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQKsfg-9JVx7DiVi3jjw_gid5RowgQfG1-JJF3DWkwZvCvfX6L">
+          </ion-avatar>
+          <h2>Stormtrooper</h2>
+          <ion-icon clear item-right name="eye"></ion-icon>
+        </ion-item>
+
+      </ion-toolbar>
+    </ion-footer>
+
   </ion-content>
 
 </ion-menu>
