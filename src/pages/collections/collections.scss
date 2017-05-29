@@ -1,3 +1,12 @@
 page-collections {
 
+    ion-footer{
+        p{
+            color: map-get($colors, darkgrays);
+            text-align: center;
+        }
+
+        
+    }
+
 }

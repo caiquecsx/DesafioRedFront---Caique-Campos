@@ -11,7 +11,13 @@
       <ion-icon name="menu"></ion-icon>
     </button>
 
-    <ion-title>Collections</ion-title>
+      <ion-searchbar class="bar"
+        [(ngModel)]="myInput"
+        [showCancelButton]="shouldShowCancel"
+        (ionInput)="onInput($event)"
+        (ionCancel)="onCancel($event)">
+      </ion-searchbar>
+      
   </ion-navbar>
 
 </ion-header>
@@ -19,4 +25,10 @@
 
 <ion-content padding>
 
+
+  <ion-footer>
+    <ion-toolbar clear>
+      <ion-title><p>Footer</p></ion-title>
+    </ion-toolbar>
+  </ion-footer>
 </ion-content>
